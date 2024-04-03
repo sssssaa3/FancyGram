@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- META -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <!-- TITLE -->
+  <title>FancyGram</title>
+
+  <!-- CSS Fancybox -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+
+  <!-- BOOTSTRAP STYLES -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- BOOTSTRAP ICON -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- link css -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="bg-black d-flex flex-column ">
+
+  <!-- HEADER -->
+  <header class="py-4">
+    <div class="container text-center text-white">
+      <!-- TITLE -->
+      <h1>FancyGram</h1>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main class="flex-grow-1  d-flex flex-column">
+    <div class="container px-3 flex-grow-1 d-flex flex-column justify-content-center align-items-center">
+      <!-- section 1 -->
+      <div class="row ">
+        <!-- col-1 -->
+        <div class="col-4 ">
+          <div class="row">
+            <!-- col-1-row1 -->
+            <div class="col-12 px-0 position-relative">
+              <!-- GALERIA GATOS -->
+              <a data-fancybox="gallery" href="./img/cat1.jpg">
+                <img src="./img/cat1.jpg"
+                  alt="Gatito de pelaje gris y blanco con ojos verdes curiosos asomándose detrás de unas almohadas en una cama, con un fondo suave y difuso." />
+              </a>
+              <!-- ICONO -->
+              <i class="bi bi-images position-absolute "></i>
+              <!-- SECCION OCULTA GALERIA GATOS -->
+              <div style="display:none">
+                <!-- IMAGEN -->
+                <a data-fancybox="gallery" href="./img/cat2.jpg">
+                  <img src="./img/cat2.jpg"
+                    alt="Pequeño gato de pelaje gris y blanco con manchas negras, mirando atentamente hacia la cámara, sentado sobre una cama con ladrillos rojos visibles en el fondo" />
+                </a>
+                <!-- IMAGEN -->
+                <a data-fancybox="gallery" href="./img/cat3.jpg">
+                  <img src="./img/cat3.jpg"
+                    alt="Gatito blanco y gris tumbado boca arriba, estirando las patas en el aire en una postura relajada sobre un cojín rojo y blanco" />
+                </a>
+                <!-- IMAGEN -->
+                <a data-fancybox="gallery" href="./img/cat4.jpg">
+                  <img src="./img/cat4.jpg"
+                    alt="Gato naranja con rayas acostado cómodamente con los ojos cerrados, disfrutando de un sueño tranquilo en un suelo de madera" />
+                </a>
+              </div>
+
+            </div>
+            <!-- col-1-row2 -->
+            <div class="col-12 px-0 position-relative">
+              <!-- GALERIA MAPA MAITENCILLO -->
+              <a class="fancybox" data-fancybox="gallery-b"
+                href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13437.6718101515!2d-71.44834952986648!3d-32.64832031208635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689bbd1d5760ed1%3A0x1f27c853c5b3cf32!2sMaitencillo%2C%20Puchuncav%C3%AD%2C%20Valpara%C3%ADso!5e0!3m2!1ses!2scl!4v1711982871904!5m2!1ses!2scl"
+                data-type="iframe">
+                <img src="./img/map-1.png"
+                  alt="Captura  de un mapa en Google Maps que muestra la ubicación de Maitencillo en Puchuncaví, Valparaíso.">
+              </a>
+              <!-- ICONO -->
+              <i class="bi bi-images position-absolute "></i>
+              <!-- SECCION OCULTA -->
+              <div style="display:none">
+                <!-- IMAGEN -->
+                <a data-fancybox="gallery-b" href="./img/foto-1.jpg">
+                  <img src="./img/foto-1.jpg"
+                    alt="Vista aérea de aguas cristalinas turquesa con un par de personas nadando cerca de la orilla, donde se mezclan arenas blancas y algas marinas en Maitencillo, Puchuncaví, Valparaíso." />
+                </a>
+                <!-- IMAGEN -->
+                <a data-fancybox="gallery-b" href="./img/foto-2.jpg">
+                  <img src="./img/foto-2.jpg"
+                    alt="Playa rocosa vista desde un bosque con pinos, con personas disfrutando de la arena cerca de las olas del mar en un día nublado en Maitencillo, Puchuncaví, Valparaíso." />
+                </a>
+                <!-- IMAGEN -->
+                <a data-fancybox="gallery-b" href="./img/foto-3.jpg">
+                  <img src="./img/foto-3.jpg"
+                    alt="Dos personas caminando por una playa desierta en un día gris, con aves volando cerca de la línea de olas en el horizonte en Maitencillo,  Puchuncaví, Valparaíso." />
+                </a>
+                <!-- IMAGEN -->
+                <a data-fancybox="gallery-b" href="./img/foto-4.jpg">
+                  <img src="./img/foto-4.jpg"
+                    alt="Vista aérea de un acantilado junto al mar, mostrando las potentes olas chocando contra las rocas y una lujosa casa cercana en Maitencillo,  Puchuncaví, Valparaíso." />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- col-2 -->
+        <div class="col-4">
+          <div class="row">
+            <!-- col-2-row1 -->
+            <div class="col-12 px-0 position-relative">
+              <!-- GALERIA MEN RANDOM -->
+              <a data-fancybox="gallery-c" href="./img/person2.jpg">
+                <img src="./img/person2.jpg"
+                  alt="Hombre con barba, gorro de lana y gafas, iluminado con luces de neón que reflejan un ambiente urbano nocturno y moderno" />
+              </a>
+              <!-- ICONO -->
+              <i class="bi bi-images position-absolute "></i>
+              <!-- SECCION OCULTA -->
+              <div style="display:none">
+                <!-- IMAGEN -->
+                <a data-fancybox="gallery-c" href="./img/person1.jpg">
+                  <img src="./img/person1.jpg"
+                    alt="Retrato en blanco y negro de un hombre con barba y cabeza calva, sonriendo a la cámara en un fondo neutro, transmitiendo tranquilidad y confianza" />
+                </a>
+                <!-- IMAGEN -->
+                <a data-fancybox="gallery-c" href="./img/person3.jpg">
+                  <img src="./img/person3.jpg"
+                    alt="Perfil en contraluz de un hombre con barba y cabello corto, mirando pensativamente hacia el lado, destacando las líneas de su rostro sobre un fondo claro." />
+                </a>
+              </div>
+            </div>
+
+            <!-- col-2-row2 -->
+            <div class="col-12 px-0 position-relative">
+              <!-- GALERIA CRISTIANO RONALDO YOUTUBE -->
+              <a data-fancybox="gallery-d" href="https://www.youtube.com/watch?v=eFgSL_CHYwg">
+                <img src="./img/youtube2.png"
+                  alt="Imagen del futbolista Cristiano Ronaldo celebrando una victoria con una copa de campeonato, levantando cinco dedos en señal de múltiples victorias">
+              </a>
+              <!-- ICONO -->
+              <i class="bi bi-camera-reels-fill position-absolute "></i>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- col-3 -->
+        <div class="col-4 px-0 position-relative ">
+          <!-- GALERIA WOMAN RANDOM -->
+          <a data-fancybox="gallery-e" href="./img/woman3.jpg" class="big-frame">
+            <img src="./img/woman3.jpg"
+              alt="Retrato detallado de una mujer rubia con mirada directa a la cámara, su cabello al viento crea un marco natural y artístico alrededor de su rostro" />
+          </a>
+          <!-- ICONO -->
+          <i class="bi bi-images position-absolute "></i>
+          <!-- SECCION OCULTA -->
+          <div style="display:none">
+            <!-- IMAGEN -->
+            <a data-fancybox="gallery-e" href="./img/woman2.jpg">
+              <img src="./img/woman2.jpg"
+                alt="Joven mujer en un campo, con una expresión contemplativa y cabello rubio ondulado, vestida con un top burdeos y rodeada de altas hierbas secas" />
+            </a>
+            <!-- IMAGEN -->
+            <a data-fancybox="gallery-e" href="./img/woman1.jpg">
+              <img src="./img/woman1.jpg"
+                alt="Retrato en blanco y negro de una mujer con el cabello al viento cubriéndole parte de la cara, mostrando una mirada intensa y pensativa a la cámara" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- section 2 -->
+      <div class="row">
+        <!-- section 2-col-1 -->
+        <div class="col-4 px-0 position-relative ">
+          <!-- GALERIA PERRUNOS -->
+          <a data-fancybox="gallery-f" href="./img/perro2.jpg" class="big-frame">
+            <img src="./img/perro2.jpg"
+              alt="Perro de raza retriever con anteojos de montura negra 'leyendo' una revista abierta con imágenes de perros, ilustrando un momento tierno y humorístico" />
+          </a>
+          <!-- ICONO -->
+          <i class="bi bi-images position-absolute "></i>
+          <!-- SECCION OCULTA -->
+          <div style="display:none">
+            <!-- IMAGEN -->
+            <a data-fancybox="gallery-f" href="./img/perro1.jpg">
+              <img src="./img/perro1.jpg"
+                alt="Dos perros jugando en un campo, uno es un corgi marrón y el otro es un spaniel de orejas largas con un collar que dice 'Tommy." />
+            </a>
+            <!-- IMAGEN -->
+            <a data-fancybox="gallery-f" href="./img/perro3.jpg">
+              <img src="./img/perro3.jpg"
+                alt="Dos perros corriendo alegremente uno al lado del otro en un camino de tierra al atardecer, con el sol poniéndose detrás de las montañas en el horizonte" />
+            </a>
+          </div>
+        </div>
+
+        <!-- section 2-col-2 -->
+        <div class="col-4">
+          <div class="row">
+            <!-- col-2-row1 -->
+            <div class="col-12 px-0 position-relative">
+              <!-- GALERIA FAMILIA RANDOM -->
+              <a data-fancybox="gallery-g" href="./img/familia1.jpg">
+                <img src="./img/familia1.jpg"
+                  alt="Momento alegre de una niña pequeña sonriendo mientras es alzada en el aire por su madre en un parque, transmitiendo una sensación de felicidad y cuidado" />
+              </a>
+              <!-- ICONO -->
+              <i class="bi bi-images position-absolute "></i>
+              <!-- SECCION OCULTA -->
+              <div style="display:none">
+                <!-- IMAGEN -->
+                <a data-fancybox="gallery-g" href="./img/familia2.jpg">
+                  <img src="./img/familia2.jpg"
+                    alt="Momento íntimo familiar con una madre sentada en el sofá mostrando una tableta a sus dos hijos pequeños, todos concentrados en la pantalla" />
+                </a>
+                <!-- IMAGEN -->
+                <a data-fancybox="gallery-g" href="./img/familia3.jpg">
+                  <img src="./img/familia3.jpg"
+                    alt="Padre feliz cargando a su hijo pequeño sobre los hombros mientras su otro hijo se aferra a su brazo, en un entorno residencial al aire libre." />
+                </a>
+              </div>
+            </div>
+            <!-- col-2-row2 -->
+            <div class="col-12 px-0 position-relative">
+              <!-- GALERIA KOREA RANDOM -->
+              <a data-fancybox="gallery-h" href="./img/korea1.jpg">
+                <img src="./img/korea1.jpg"
+                  alt="Pareja sentada en un campo seco, compartiendo un momento de risa y alegría bajo la luz suave del atardecer" />
+              </a>
+              <!-- ICONO -->
+              <i class="bi bi-images position-absolute "></i>
+              <!-- SECCION OCULTA -->
+              <div style="display:none">
+                <!-- IMAGEN -->
+                <a data-fancybox="gallery-h" href="./img/korea2.jpg">
+                  <img src="./img/korea2.jpg"
+                    alt="Mujer joven disfrutando del sol del atardecer en un campo abierto, con un gesto de felicidad y libertad" />
+                </a>
+                <!-- IMAGEN -->
+                <a data-fancybox="gallery-h" href="./img/korea3.jpg">
+                  <img src="./img/korea3.jpg"
+                    alt="Joven con cabello al viento mirando hacia la cámara con una expresión serena, con el paisaje urbano borroso en el fondo" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- section2-col-3 -->
+        <div class="col-4">
+          <div class="row">
+            <!-- col-3-row1 -->
+            <div class="col-12 px-0 position-relative">
+              <!-- GALERIA ATLETAS RANDOM -->
+              <a data-fancybox="gallery-i" href="./img/atleta1.jpg">
+                <img src="./img/atleta1.jpg"
+                  alt="Hombre con barba y gafas de sol celebrando una victoria con un brazo extendido hacia el cielo y el otro tocando su oreja en gesto de escuchar aplausos, fondo neutro." />
+              </a>
+              <!-- ICONO -->
+              <i class="bi bi-images position-absolute "></i>
+              <!-- SECCION OCULTA -->
+              <div style="display:none">
+                <!-- IMAGEN -->
+                <a data-fancybox="gallery-i" href="./img/atleta2.jpg">
+                  <img src="./img/atleta2.jpg"
+                    alt="Joven atleta femenina realizando una pose de yoga o estiramiento con una pierna elevada y extendida verticalmente y un brazo extendido horizontalmente, en un gimnasio con un saco de boxeo al fondo." />
+                </a>
+                <!-- IMAGEN -->
+                <a data-fancybox="gallery-i" href="./img/atleta3.jpg">
+                  <img src="./img/atleta3.jpg"
+                    alt="Hombre corriendo a través de una serie de obstáculos de agilidad en una pista de entrenamiento al aire libre, enfocado y en plena acción de ejercicio." />
+                </a>
+              </div>
+            </div>
+
+            <!-- col-3-row2 -->
+            <div class="col-12 px-0 position-relative">
+              <!-- GALERIA MR BEAST -->
+              <a data-fancybox="gallery-j" href="https://www.youtube.com/watch?v=mwKJfNYwvm8">
+                <img src="./img/youtube.png"
+                  alt="Miniatura de un video de YouTube mostrando a Mr. Beast con chaleco reflectante y gesto entusiasta, con una serie de piscinas pequeñas en forma de pozos en el fondo" />
+              </a>
+              <!-- ICONO -->
+              <i class="bi bi-camera-reels-fill position-absolute "></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="py-3">
+    <div class="container">
+      <p class="text-center text-white-50">Creado por Sebastián Salas en 2024</p>
+    </div>
+  </footer>
+
+  <!-- Modal de Carga -->
+  <div id="loadingModal" class="loading-modal">
+    <!-- Contenido del Modal -->
+    <div class="loading-content">
+      <div class="spinner-grow" style="width: 3rem; height: 3rem;" role="status">
+      </div>
+      <div class="spinner-grow" style="width: 3rem; height: 3rem;" role="status">
+      </div>
+      <div class="spinner-grow" style="width: 3rem; height: 3rem;" role="status">
+      </div>
+    </div>
+    <p class="fs-1">FancyGram</p>
+  </div>
+
+  <!-- Js Fancybox -->
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+
+  <!-- BOOTSTRAP JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <!-- JQUEry -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+  <!-- Index.js Script -->
+  <script src="./js/index.js"></script>
+
+</body>
+
+</html>
